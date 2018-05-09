@@ -9,13 +9,13 @@ const startTabs = () => {
     Navigation.startTabBasedApp({
       tabs: [
         {
-          screen: "sweet-places.FindPlaceScreen",
+          screen: "rn-places.FindPlaceScreen",
           label: "Find Place",
           title: "Find Place",
           icon: sources[0]
         },
         {
-          screen: "sweet-places.SharePlaceScreen",
+          screen: "rn-places.SharePlaceScreen",
           label: "Share Place",
           title: "Share Place",
           icon: sources[1]
