@@ -7,7 +7,7 @@ import { deletePlace } from "../../store/actions";
 
 class PlaceDetail extends Component {
   placeDeleteHandler = () => {
-    this.props.onDeleteItem(this.props.selectedPlace.key);
+    this.props.onDeletePlace(this.props.selectedPlace.key);
     this.props.navigator.pop();
   };
   render() {
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
 
 const mapDispatchToProps = dispatch => {
   return {
-    onDeleteItem: (key) => dispatch(deletePlace(key))
+    onDeletePlace: (key) => dispatch(deletePlace(key))
   }
 };
 
