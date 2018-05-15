@@ -2,7 +2,12 @@ import React from 'react';
 import { TextInput, StyleSheet } from 'react-native';
 
 const defaultInput = props => (
-  <TextInput style={styles.input} underlineColorAndroid="transparent" {...props}/>
+  <TextInput
+    {...props}
+    style={[styles.input, props.style]}
+    // with the use of the array, the styles override each other by order (merge)
+    underlineColorAndroid="transparent"
+    />
 
 );
 
