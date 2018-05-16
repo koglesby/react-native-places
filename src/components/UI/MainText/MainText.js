@@ -2,12 +2,12 @@ import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
 const mainText = props => (
-  <Text style={styles.mainText}>{props.children}</Text>
+  <Text style={[styles.mainText, props.style]}>{props.children}</Text>
 );
 
 const styles = StyleSheet.create({
   mainText: {
-    color: "white",
+    color: "black",
     backgroundColor: "transparent"
   }
 });
