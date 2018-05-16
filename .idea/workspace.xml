@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="852445c8-b8f5-4603-999b-45dbb8fff5e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI/MainText/MainText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/ButtonWithBackground/ButtonWithBackground.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.4/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/8jTxINfRIqJVsjt4kqpcMxkGfGU=" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/8jTxINfRIqJVsjt4kqpcMxkGfGU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/35.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/35.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/36.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/36.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/37.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/37.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/38.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/38.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/40.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/dexBuilder/debug/40.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/Auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Auth/Auth.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,7 +51,7 @@
       <file leaf-file-name="startMainTabs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/MainTabs/startMainTabs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="357">
               <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
@@ -66,18 +84,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FindPlace.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/FindPlace/FindPlace.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,13 +96,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Auth.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Auth.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/Auth/Auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonWithBackground.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/UI/ButtonWithBackground/ButtonWithBackground.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/UI/HeadingText/HeadingText.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -179,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/components/UI/HeadingText/HeadingText.js" />
         <option value="$PROJECT_DIR$/src/components/UI/MainText/MainText.js" />
         <option value="$PROJECT_DIR$/src/screens/Auth/Auth.js" />
+        <option value="$PROJECT_DIR$/src/components/UI/ButtonWithBackground/ButtonWithBackground.js" />
       </list>
     </option>
   </component>
@@ -199,10 +218,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="933" />
-    <option name="width" value="998" />
-    <option name="height" value="1031" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="63" />
+    <option name="y" value="-20" />
+    <option name="width" value="1884" />
+    <option name="height" value="1106" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -234,6 +254,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-native-places" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-native-places" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="ButtonWithBackground" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-native-places" type="b2602c69:ProjectViewProjectNode" />
@@ -371,18 +399,18 @@
       <workItem from="1525381086504" duration="598000" />
       <workItem from="1525735771054" duration="14588000" />
       <workItem from="1525974517744" duration="11375000" />
-      <workItem from="1526339469310" duration="7227000" />
+      <workItem from="1526339469310" duration="13248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95984000" />
+    <option name="totallyTimeSpent" value="102005000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="622" y="0" width="665" height="687" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49666667" visible="true" weight="0.26592356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49666667" visible="true" weight="0.21383148" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50274724" side_tool="true" weight="0.32998565" />
@@ -390,7 +418,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" sideWeight="0.50333333" side_tool="true" weight="0.2201087" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49725273" visible="true" weight="0.4236984" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49725273" visible="true" weight="0.41769913" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -414,13 +442,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -714,16 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/MainTabs/startMainTabs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/SideDrawer/SideDrawer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -777,7 +788,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/UI/HeadingText/HeadingText.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -794,12 +805,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/MainTabs/startMainTabs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/Auth/Auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/ButtonWithBackground/ButtonWithBackground.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
