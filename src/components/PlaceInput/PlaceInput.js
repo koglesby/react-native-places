@@ -7,7 +7,8 @@ const placeInput = props => (
     style={styles.placeInput}
     placeholder="Awesome place"
     value={props.placeName}
-    onChangeText={props.onChangeText} />
+    onChangeText={props.onChangeText}
+  />
 );
 
 const styles = StyleSheet.create({
