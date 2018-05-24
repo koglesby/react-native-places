@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Image, Text, StyleSheet, TouchableOpacity, Platform } from 'react-native';
+import { ScrollView, View, Image, Text, StyleSheet, TouchableOpacity, Platform } from 'react-native';
 import { connect } from 'react-redux';
 
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -12,9 +12,11 @@ class PlaceDetail extends Component {
   };
   render() {
     return (
-      <View style={styles.container}>
+      <ScrollView style={styles.container}>
         <View>
           <Image source={this.props.selectedPlace.image} style={styles.placeImage}/>
+        </View>
+        <View>
           <Text style={styles.placeName}>{this.props.selectedPlace.name}</Text>
         </View>
         <View>
@@ -27,7 +29,7 @@ class PlaceDetail extends Component {
             </View>
           </TouchableOpacity>
         </View>
-      </View>
+      </ScrollView>
     );
   }
 
