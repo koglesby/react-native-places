@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="852445c8-b8f5-4603-999b-45dbb8fff5e3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/PlaceInput/PlaceInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlaceInput/PlaceInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/SharePlace/SharePlace.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/SharePlace/SharePlace.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/validation.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/src/screens/SharePlace/SharePlace.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="53" column="52" lean-forward="true" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
+              <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -192,11 +191,10 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1043" />
-    <option name="height" value="987" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1113" />
+    <option name="width" value="818" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -302,7 +300,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/kevin/Desktop/Udemy/react-native-practical/react-native-places/src/screens/Auth/Auth.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../AlgoCasts-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ng-portfolio" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -359,18 +357,18 @@
       <workItem from="1527272304648" duration="4133000" />
       <workItem from="1527287285123" duration="6388000" />
       <workItem from="1527541740801" duration="4148000" />
-      <workItem from="1527621523812" duration="10603000" />
+      <workItem from="1527621523812" duration="11972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155318000" />
+    <option name="totallyTimeSpent" value="156687000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="742" y="0" width="545" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49666667" visible="true" weight="0.18600954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49666667" visible="true" weight="0.4606299" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50274724" side_tool="true" weight="0.32998565" />
@@ -378,7 +376,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" sideWeight="0.50333333" side_tool="true" weight="0.2201087" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49725273" visible="true" weight="0.3221239" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49725273" visible="true" weight="0.32675046" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -805,7 +803,7 @@
     <entry file="file://$PROJECT_DIR$/src/screens/SharePlace/SharePlace.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="53" column="52" lean-forward="true" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
+          <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
