@@ -81,7 +81,7 @@ class SharePlaceScreen extends Component {
         }
       }
     })
-  }
+  };
 
   render() {
     return (
