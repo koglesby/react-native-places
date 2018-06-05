@@ -13,6 +13,7 @@ const reducer = (state = initialState, action) => {
         places: state.places.concat({
           key: Math.random(),
           name: action.placeName,
+          location: action.location,
           image: {
             uri: "https://www.publicdomainpictures.net/pictures/250000/velka/sacramento-iron-bridge.jpg"
           }
