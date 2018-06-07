@@ -2,10 +2,7 @@ import { ADD_PLACE, DELETE_PLACE } from './actionTypes';
 
 export const addPlace = (placeName, location, image) => {
   return dispatch => {
-    const placeData = {
-      name: placeName,
-      location: location
-    };
+    // image posted to the firebase storage
     fetch("https://us-central1-rn-places.cloudfunctions.net/storeImage", {
       method: "POST",
       body: JSON.stringify({
@@ -15,12 +12,24 @@ export const addPlace = (placeName, location, image) => {
       .catch(err => console.log(err))
       .then(res => res.json())
       .then(parsedRes => {
+        const placeData = {
+          name: placeName,
+          location: location,
+          image: parsedRes.imageUrl
+        };
+        // the place object is constructed
+        // using the imageUrl returned from firebase
+        // And is posted to firebase database
+        return fetch("https://rn-places.firebaseio.com/places.json", {
+          method: "POST",
+          body: JSON.stringify(placeData)
+        });
+      })
+      .catch(err => console.log(err))
+      .then(res => res.json())
+      .then(parsedRes => {
         console.log(parsedRes);
       });
-    // fetch("https://rn-places.firebaseio.com/places.json", {
-    //   method: "POST",
-    //   body: JSON.stringify(placeData)
-    // })
   };
 };
 

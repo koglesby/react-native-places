@@ -10,9 +10,6 @@ const gcconfig = {
 
 const gcs = require("@google-cloud/storage")(gcconfig);
 
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
 exports.storeImage = functions.https.onRequest((request, response) => {
   return cors(request, response, () => {
     const body = JSON.parse(request.body);

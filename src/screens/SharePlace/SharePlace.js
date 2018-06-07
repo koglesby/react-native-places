@@ -145,8 +145,6 @@ const styles = StyleSheet.create({
 });
 
 const mapDispatchToProps = dispatch => {
-  // takes the data from this state,
-  // uses reducer to store the object in places on the app state
   return {
     onAddPlace: (placeName, location, image) => dispatch(addPlace(placeName, location, image))
   }
