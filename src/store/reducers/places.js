@@ -15,7 +15,7 @@ const reducer = (state = initialState, action) => {
           name: action.placeName,
           location: action.location,
           image: {
-            uri: "https://www.publicdomainpictures.net/pictures/250000/velka/sacramento-iron-bridge.jpg"
+            uri: action.image.uri
           }
         })
       };

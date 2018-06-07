@@ -3,7 +3,7 @@ import { View, Text, Button, StyleSheet, ScrollView, Image, KeyboardAvoidingView
 
 import { connect } from 'react-redux';
 
-import { addPlace} from "../../store/actions";
+import { addPlace } from "../../store/actions";
 import MainText from '../../components/UI/MainText/MainText';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import PlaceInput from "../../components/PlaceInput/PlaceInput";
@@ -27,6 +27,10 @@ class SharePlaceScreen extends Component {
         }
       },
       location: {
+        value: null,
+        valid: false
+      },
+      image: {
         value: null,
         valid: false
       }
@@ -64,9 +68,29 @@ class SharePlaceScreen extends Component {
     })
   };
 
-  placeAddedHandler = () => {
-    this.props.onAddPlace(this.state.controls.placeName.value, this.state.controls.location.value)
+  imagePickedHandler = image => {
+    // receives and image from the image picker in  the PickImage component
+    // as an object { uri: res.uri }
+    // this.state.controls.image.value is set
+    this.setState(prevState => {
+      return {
+        controls: {
+          ...prevState.controls,
+          image: {
+            value: image,
+            valid: true
+          }
+        }
+      }
+    })
+  };
 
+  placeAddedHandler = () => {
+    this.props.onAddPlace(
+      this.state.controls.placeName.value,
+      this.state.controls.location.value,
+      this.state.controls.image.value
+    )
   };
 
   locationPickedHandler = location => {
@@ -88,7 +112,7 @@ class SharePlaceScreen extends Component {
       <ScrollView>
         <KeyboardAvoidingView behavior="padding" style={styles.container}>
           <MainText><HeadingText>Share a place with us!</HeadingText></MainText>
-          <PickImage />
+          <PickImage onImagePicked={this.imagePickedHandler}/>
           <PickLocation onLocationPick={this.locationPickedHandler}/>
           <PlaceInput
             placeName={this.state.controls.placeName.value}
@@ -103,6 +127,7 @@ class SharePlaceScreen extends Component {
               disabled={
                 !this.state.controls.placeName.valid
                 || !this.state.controls.location.valid
+                || !this.state.controls.image.valid
               }
             />
           </View>
@@ -120,8 +145,10 @@ const styles = StyleSheet.create({
 });
 
 const mapDispatchToProps = dispatch => {
+  // takes the data from this state,
+  // uses reducer to store the object in places on the app state
   return {
-    onAddPlace: (placeName, location) => dispatch(addPlace(placeName, location))
+    onAddPlace: (placeName, location, image) => dispatch(addPlace(placeName, location, image))
   }
 };
 

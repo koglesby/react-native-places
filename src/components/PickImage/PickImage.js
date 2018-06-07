@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Image, Button, StyleSheet } from 'react-native';
-import imagePlaceholder from '../../assets/beautiful-place.jpg';
 import ImagePicker from 'react-native-image-picker';
+
 class PickImage extends Component {
   state = {
     pickedImage: null
@@ -17,6 +17,7 @@ class PickImage extends Component {
         this.setState({
           pickedImage: { uri: res.uri }
         });
+        this.props.onImagePicked({ uri: res.uri });
       }
     });
   };

@@ -52,9 +52,13 @@ class FindPlaceScreen extends Component {
   };
 
   itemSelectedHandler = key => {
+    // With mapStateToProps, this.props pulls from the global state
     const selPlace = this.props.places.find(place => {
       return place.key === key;
     });
+
+    // selectedPlace:  place object with key that matches the selected key
+    // navigates to PlaceDetail, passes selectedPlace as props
     this.props.navigator.push({
       screen: "rn-places.PlaceDetailScreen",
       title: selPlace.name,
