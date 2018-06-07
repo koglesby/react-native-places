@@ -6,22 +6,22 @@ export const addPlace = (placeName, location, image) => {
       name: placeName,
       location: location
     };
-    fetch("https://rn-places.firebaseio.com/places.json", {
+    fetch("https://us-central1-rn-places.cloudfunctions.net/storeImage", {
       method: "POST",
-      body: JSON.stringify(placeData)
+      body: JSON.stringify({
+        image: image.base64
+      })
     })
       .catch(err => console.log(err))
       .then(res => res.json())
       .then(parsedRes => {
         console.log(parsedRes);
       });
+    // fetch("https://rn-places.firebaseio.com/places.json", {
+    //   method: "POST",
+    //   body: JSON.stringify(placeData)
+    // })
   };
-  // {
-  //   type: ADD_PLACE,
-  //   placeName: placeName,
-  //   location: location,
-  //   image: image
-  // };
 };
 
 export const deletePlace = (key) => {
