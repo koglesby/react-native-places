@@ -7,37 +7,37 @@ INJECTED from C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-p
 MERGED from [:react-native-navigation] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
 MERGED from [:react-native-vector-icons] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-image-picker] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-23:12
-MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\4c9b37c19aefd3579c9d2f1f22a7aead\AndroidManifest.xml:2:1-15:12
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\b9c9ee9f3ccc0c60b94cbb4b06edca26\AndroidManifest.xml:2:1-14:12
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\fdee9eea3570331644c4ddb0f91bce92\AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\333253b9a04ac36e123879fca9984914\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\2389b418e8eeb905bbdf942165f8f24f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\3e8be03857fa9d4452acd02718799258\AndroidManifest.xml:2:1-15:12
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\bc02f30817d133d5c533356c8dfb95b3\AndroidManifest.xml:2:1-14:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\f14d027bad4bbcb35346ac935ea7c808\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\9f56d57d69f2d6014d7ef4b1c6255b98\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a2695c856ebf14eebaed01a11adc7c1a\AndroidManifest.xml:17:1-31:12
 MERGED from [:react-native-maps] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-12:12
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\2912d2437bbf50cc68e7a3863ff800f1\AndroidManifest.xml:16:1-25:12
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\e0697d01c65ac7b16512b12d54dc3051\AndroidManifest.xml:16:1-21:12
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5de8c7458e3411843ef2a85c27d28faf\AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\35e747e62e3229094c283e6e640f7e86\AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:transition:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\8887d33ff14a67e9ba17c1bc0119a03a\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\17dddad3034d2c84dada05ea040ae9c4\AndroidManifest.xml:17:1-31:12
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\db657e54be24234faf81a5431c5f78cc\AndroidManifest.xml:10:1-18:12
-MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\79e7108da761adf5bd1a09a68bd6ef01\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\dd5c07ef4d3eacaf63e033b35a6500f4\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\99a47a09c2f4d42725a2e6ef835b4a16\AndroidManifest.xml:1:1-4:12
-MERGED from [org.webkit:android-jsc:r174650] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\35c4865899cc56996d9cdb61561a5ffa\AndroidManifest.xml:1:1-3:12
-MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\f56b9f80c36575b063c6f3698e6941f8\AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\ebfe0dfb0574efac89beebfae8197997\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\4e7b2ee58db124f874d9557bbea8d7bc\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\4dca1b40e4e3cbede8da289dbd1c60be\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\27f620bfc026a09a7f38a9e07a71e6ad\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\57baa925b92b32211943e8d03d3bf923\AndroidManifest.xml:17:1-26:12
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\cb756ed2e5f9c2916895b0aa6517da70\AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\aa01dadebd576ac10023b50a2741f4cc\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\130f973e9836173f6c79ac84f5e9e290\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\4a312ab36795b6fcd289a7a6ba202902\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\4cd01f2189222da992f32a99ee01db3b\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b7b74b1aca14c3d0ffdadcea6bdbdc5f\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5a8041236cb812880d3b01f263194a30\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a329e2fb671abf4a4eb336c81e9535ac\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\0b9c5b9b75674f2e93d16c9667e6b22a\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\3816879d678845e69a231ad66c4259b3\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5eaf9fed32f7a7c3d61e380b4f1cad0b\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\507cc0de39ca30e764a3164ee3570e4d\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\951a36adc516b48d7144b676b361b1a4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\00dde99ac66bee583f1b3c211078467b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\ff9d5e980e3e11ba4652097c4b9d9b61\AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\18eb1659fa8be89de4fc65b9bbb69f59\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\a7163496f7e07448d42282fc0520302b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\c885b0e61bc130bfe4b858f2691206b4\AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\a61f8f7a08479464e4a9ba2706682b2e\AndroidManifest.xml:1:1-3:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\811f2c30b60fe638bebd785466536d4e\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\75ad6dde8898099f72f4bcb44e03f59c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\115e9b24e2add3e0865e52919f57aa0f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\512778639670a5d8f1363bdc0f33c7d4\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\bebf4355ba6464dac5dbbe266a3469c8\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\efa6572b3b9e93f09af41e68be23d373\AndroidManifest.xml:17:1-26:12
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\57883bafd4f2c51803a52001437825ef\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\fc1f039d407e826bb576a04a57be063f\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\9306ee698f737d308543747665332df7\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a52664d1a5284d95c747a2d30c78df04\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\3fc8d461977b2956492fcb2d9594836b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\6d0959f2200fc756b4d1b03dc219c598\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\49aeff00bab44ac4eccd482f7f152088\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9b9772de39db9b8676c0b8bc4635171f\AndroidManifest.xml:17:1-31:12
 INJECTED from C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\android\app\src\main\AndroidManifest.xml:1:1-38:12
 INJECTED from C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\android\app\src\main\AndroidManifest.xml:1:1-38:12
 INJECTED from C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\android\app\src\main\AndroidManifest.xml:1:1-38:12
@@ -59,14 +59,14 @@ uses-permission#android.permission.INTERNET
 ADDED from C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\android\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [:react-native-maps] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:9:5-67
 MERGED from [:react-native-maps] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:9:5-67
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\2912d2437bbf50cc68e7a3863ff800f1\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\2912d2437bbf50cc68e7a3863ff800f1\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\0b9c5b9b75674f2e93d16c9667e6b22a\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\0b9c5b9b75674f2e93d16c9667e6b22a\AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\android\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\android\app\src\main\AndroidManifest.xml:7:5-77
-MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\4c9b37c19aefd3579c9d2f1f22a7aead\AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\4c9b37c19aefd3579c9d2f1f22a7aead\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\3e8be03857fa9d4452acd02718799258\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\3e8be03857fa9d4452acd02718799258\AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\android\app\src\main\AndroidManifest.xml:7:22-75
 uses-permission#android.permission.ACCESS_FINE_LOCATION
@@ -91,70 +91,70 @@ MERGED from [:react-native-vector-icons] C:\Users\kevin\Desktop\Udemy\react-nati
 MERGED from [:react-native-vector-icons] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-image-picker] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-image-picker] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\4c9b37c19aefd3579c9d2f1f22a7aead\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\4c9b37c19aefd3579c9d2f1f22a7aead\AndroidManifest.xml:7:5-9:41
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\b9c9ee9f3ccc0c60b94cbb4b06edca26\AndroidManifest.xml:8:5-10:41
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\b9c9ee9f3ccc0c60b94cbb4b06edca26\AndroidManifest.xml:8:5-10:41
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\fdee9eea3570331644c4ddb0f91bce92\AndroidManifest.xml:7:5-9:41
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\fdee9eea3570331644c4ddb0f91bce92\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\333253b9a04ac36e123879fca9984914\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\333253b9a04ac36e123879fca9984914\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\2389b418e8eeb905bbdf942165f8f24f\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\2389b418e8eeb905bbdf942165f8f24f\AndroidManifest.xml:21:5-23:78
+MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\3e8be03857fa9d4452acd02718799258\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\3e8be03857fa9d4452acd02718799258\AndroidManifest.xml:7:5-9:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\bc02f30817d133d5c533356c8dfb95b3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\bc02f30817d133d5c533356c8dfb95b3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\f14d027bad4bbcb35346ac935ea7c808\AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\f14d027bad4bbcb35346ac935ea7c808\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\9f56d57d69f2d6014d7ef4b1c6255b98\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\9f56d57d69f2d6014d7ef4b1c6255b98\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a2695c856ebf14eebaed01a11adc7c1a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a2695c856ebf14eebaed01a11adc7c1a\AndroidManifest.xml:21:5-23:78
 MERGED from [:react-native-maps] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-maps] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\2912d2437bbf50cc68e7a3863ff800f1\AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\2912d2437bbf50cc68e7a3863ff800f1\AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\e0697d01c65ac7b16512b12d54dc3051\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\e0697d01c65ac7b16512b12d54dc3051\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5de8c7458e3411843ef2a85c27d28faf\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5de8c7458e3411843ef2a85c27d28faf\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\35e747e62e3229094c283e6e640f7e86\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\35e747e62e3229094c283e6e640f7e86\AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:transition:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\8887d33ff14a67e9ba17c1bc0119a03a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\8887d33ff14a67e9ba17c1bc0119a03a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\17dddad3034d2c84dada05ea040ae9c4\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\17dddad3034d2c84dada05ea040ae9c4\AndroidManifest.xml:21:5-23:54
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\db657e54be24234faf81a5431c5f78cc\AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\db657e54be24234faf81a5431c5f78cc\AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\79e7108da761adf5bd1a09a68bd6ef01\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\79e7108da761adf5bd1a09a68bd6ef01\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\dd5c07ef4d3eacaf63e033b35a6500f4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\dd5c07ef4d3eacaf63e033b35a6500f4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\99a47a09c2f4d42725a2e6ef835b4a16\AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\99a47a09c2f4d42725a2e6ef835b4a16\AndroidManifest.xml:2:3-70
-MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\f56b9f80c36575b063c6f3698e6941f8\AndroidManifest.xml:5:5-43
-MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\f56b9f80c36575b063c6f3698e6941f8\AndroidManifest.xml:5:5-43
-MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\ebfe0dfb0574efac89beebfae8197997\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\ebfe0dfb0574efac89beebfae8197997\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\4e7b2ee58db124f874d9557bbea8d7bc\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\4e7b2ee58db124f874d9557bbea8d7bc\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\4dca1b40e4e3cbede8da289dbd1c60be\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\4dca1b40e4e3cbede8da289dbd1c60be\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\27f620bfc026a09a7f38a9e07a71e6ad\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\27f620bfc026a09a7f38a9e07a71e6ad\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\57baa925b92b32211943e8d03d3bf923\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\57baa925b92b32211943e8d03d3bf923\AndroidManifest.xml:20:5-43
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\cb756ed2e5f9c2916895b0aa6517da70\AndroidManifest.xml:8:5-10:41
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\cb756ed2e5f9c2916895b0aa6517da70\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\aa01dadebd576ac10023b50a2741f4cc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\aa01dadebd576ac10023b50a2741f4cc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\130f973e9836173f6c79ac84f5e9e290\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\130f973e9836173f6c79ac84f5e9e290\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\4a312ab36795b6fcd289a7a6ba202902\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\4a312ab36795b6fcd289a7a6ba202902\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\4cd01f2189222da992f32a99ee01db3b\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\4cd01f2189222da992f32a99ee01db3b\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b7b74b1aca14c3d0ffdadcea6bdbdc5f\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b7b74b1aca14c3d0ffdadcea6bdbdc5f\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5a8041236cb812880d3b01f263194a30\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5a8041236cb812880d3b01f263194a30\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a329e2fb671abf4a4eb336c81e9535ac\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a329e2fb671abf4a4eb336c81e9535ac\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\0b9c5b9b75674f2e93d16c9667e6b22a\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\0b9c5b9b75674f2e93d16c9667e6b22a\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\3816879d678845e69a231ad66c4259b3\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\3816879d678845e69a231ad66c4259b3\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5eaf9fed32f7a7c3d61e380b4f1cad0b\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5eaf9fed32f7a7c3d61e380b4f1cad0b\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\507cc0de39ca30e764a3164ee3570e4d\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\507cc0de39ca30e764a3164ee3570e4d\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:transition:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\951a36adc516b48d7144b676b361b1a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\951a36adc516b48d7144b676b361b1a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\00dde99ac66bee583f1b3c211078467b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\00dde99ac66bee583f1b3c211078467b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\ff9d5e980e3e11ba4652097c4b9d9b61\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\ff9d5e980e3e11ba4652097c4b9d9b61\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\18eb1659fa8be89de4fc65b9bbb69f59\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\18eb1659fa8be89de4fc65b9bbb69f59\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\a7163496f7e07448d42282fc0520302b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\a7163496f7e07448d42282fc0520302b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\c885b0e61bc130bfe4b858f2691206b4\AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\c885b0e61bc130bfe4b858f2691206b4\AndroidManifest.xml:2:3-70
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\811f2c30b60fe638bebd785466536d4e\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\811f2c30b60fe638bebd785466536d4e\AndroidManifest.xml:5:5-43
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\75ad6dde8898099f72f4bcb44e03f59c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\75ad6dde8898099f72f4bcb44e03f59c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\115e9b24e2add3e0865e52919f57aa0f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\115e9b24e2add3e0865e52919f57aa0f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\512778639670a5d8f1363bdc0f33c7d4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\512778639670a5d8f1363bdc0f33c7d4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\bebf4355ba6464dac5dbbe266a3469c8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\bebf4355ba6464dac5dbbe266a3469c8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\efa6572b3b9e93f09af41e68be23d373\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\efa6572b3b9e93f09af41e68be23d373\AndroidManifest.xml:20:5-43
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\57883bafd4f2c51803a52001437825ef\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\57883bafd4f2c51803a52001437825ef\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\fc1f039d407e826bb576a04a57be063f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\fc1f039d407e826bb576a04a57be063f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\9306ee698f737d308543747665332df7\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\9306ee698f737d308543747665332df7\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a52664d1a5284d95c747a2d30c78df04\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a52664d1a5284d95c747a2d30c78df04\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\3fc8d461977b2956492fcb2d9594836b\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\3fc8d461977b2956492fcb2d9594836b\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\6d0959f2200fc756b4d1b03dc219c598\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\6d0959f2200fc756b4d1b03dc219c598\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\49aeff00bab44ac4eccd482f7f152088\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\49aeff00bab44ac4eccd482f7f152088\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9b9772de39db9b8676c0b8bc4635171f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9b9772de39db9b8676c0b8bc4635171f\AndroidManifest.xml:21:5-23:58
 INJECTED from C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\android\app\src\main\AndroidManifest.xml:12:5-14:41
 INJECTED from C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\android\app\src\main\AndroidManifest.xml:12:5-14:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\333253b9a04ac36e123879fca9984914\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\9f56d57d69f2d6014d7ef4b1c6255b98\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		ADDED from C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\android\app\src\main\AndroidManifest.xml:14:9-38
 		INJECTED from C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\android\app\src\main\AndroidManifest.xml
@@ -169,50 +169,50 @@ MERGED from [:react-native-navigation] C:\Users\kevin\Desktop\Udemy\react-native
 MERGED from [:react-native-navigation] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
 MERGED from [:react-native-image-picker] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-21:19
 MERGED from [:react-native-image-picker] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-21:19
-MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\4c9b37c19aefd3579c9d2f1f22a7aead\AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\4c9b37c19aefd3579c9d2f1f22a7aead\AndroidManifest.xml:13:5-20
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\b9c9ee9f3ccc0c60b94cbb4b06edca26\AndroidManifest.xml:12:5-20
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\b9c9ee9f3ccc0c60b94cbb4b06edca26\AndroidManifest.xml:12:5-20
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\fdee9eea3570331644c4ddb0f91bce92\AndroidManifest.xml:11:5-20
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\fdee9eea3570331644c4ddb0f91bce92\AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\333253b9a04ac36e123879fca9984914\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\333253b9a04ac36e123879fca9984914\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\2389b418e8eeb905bbdf942165f8f24f\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\2389b418e8eeb905bbdf942165f8f24f\AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\2912d2437bbf50cc68e7a3863ff800f1\AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\2912d2437bbf50cc68e7a3863ff800f1\AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\e0697d01c65ac7b16512b12d54dc3051\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\e0697d01c65ac7b16512b12d54dc3051\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5de8c7458e3411843ef2a85c27d28faf\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5de8c7458e3411843ef2a85c27d28faf\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\35e747e62e3229094c283e6e640f7e86\AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\35e747e62e3229094c283e6e640f7e86\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:transition:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\8887d33ff14a67e9ba17c1bc0119a03a\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\8887d33ff14a67e9ba17c1bc0119a03a\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\17dddad3034d2c84dada05ea040ae9c4\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\17dddad3034d2c84dada05ea040ae9c4\AndroidManifest.xml:29:5-20
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\99a47a09c2f4d42725a2e6ef835b4a16\AndroidManifest.xml:3:3-17
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\99a47a09c2f4d42725a2e6ef835b4a16\AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\35c4865899cc56996d9cdb61561a5ffa\AndroidManifest.xml:2:3-17
-MERGED from [org.webkit:android-jsc:r174650] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\35c4865899cc56996d9cdb61561a5ffa\AndroidManifest.xml:2:3-17
-MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\f56b9f80c36575b063c6f3698e6941f8\AndroidManifest.xml:7:5-11:19
-MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\f56b9f80c36575b063c6f3698e6941f8\AndroidManifest.xml:7:5-11:19
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\cb756ed2e5f9c2916895b0aa6517da70\AndroidManifest.xml:12:5-20
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\cb756ed2e5f9c2916895b0aa6517da70\AndroidManifest.xml:12:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\aa01dadebd576ac10023b50a2741f4cc\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\aa01dadebd576ac10023b50a2741f4cc\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\130f973e9836173f6c79ac84f5e9e290\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\130f973e9836173f6c79ac84f5e9e290\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\4a312ab36795b6fcd289a7a6ba202902\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\4a312ab36795b6fcd289a7a6ba202902\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\4cd01f2189222da992f32a99ee01db3b\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\4cd01f2189222da992f32a99ee01db3b\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b7b74b1aca14c3d0ffdadcea6bdbdc5f\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b7b74b1aca14c3d0ffdadcea6bdbdc5f\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5a8041236cb812880d3b01f263194a30\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5a8041236cb812880d3b01f263194a30\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a329e2fb671abf4a4eb336c81e9535ac\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a329e2fb671abf4a4eb336c81e9535ac\AndroidManifest.xml:29:5-20
+MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\3e8be03857fa9d4452acd02718799258\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.52.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\react-native-0.52.0.aar\3e8be03857fa9d4452acd02718799258\AndroidManifest.xml:13:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\bc02f30817d133d5c533356c8dfb95b3\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\bc02f30817d133d5c533356c8dfb95b3\AndroidManifest.xml:12:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\f14d027bad4bbcb35346ac935ea7c808\AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\f14d027bad4bbcb35346ac935ea7c808\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\9f56d57d69f2d6014d7ef4b1c6255b98\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\9f56d57d69f2d6014d7ef4b1c6255b98\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a2695c856ebf14eebaed01a11adc7c1a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a2695c856ebf14eebaed01a11adc7c1a\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\0b9c5b9b75674f2e93d16c9667e6b22a\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\0b9c5b9b75674f2e93d16c9667e6b22a\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\3816879d678845e69a231ad66c4259b3\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\3816879d678845e69a231ad66c4259b3\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5eaf9fed32f7a7c3d61e380b4f1cad0b\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.0.1.aar\5eaf9fed32f7a7c3d61e380b4f1cad0b\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\507cc0de39ca30e764a3164ee3570e4d\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\507cc0de39ca30e764a3164ee3570e4d\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:transition:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\951a36adc516b48d7144b676b361b1a4\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\951a36adc516b48d7144b676b361b1a4\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\00dde99ac66bee583f1b3c211078467b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\00dde99ac66bee583f1b3c211078467b\AndroidManifest.xml:29:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\c885b0e61bc130bfe4b858f2691206b4\AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\c885b0e61bc130bfe4b858f2691206b4\AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\a61f8f7a08479464e4a9ba2706682b2e\AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\a61f8f7a08479464e4a9ba2706682b2e\AndroidManifest.xml:2:3-17
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\811f2c30b60fe638bebd785466536d4e\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\811f2c30b60fe638bebd785466536d4e\AndroidManifest.xml:7:5-11:19
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\57883bafd4f2c51803a52001437825ef\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\57883bafd4f2c51803a52001437825ef\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\fc1f039d407e826bb576a04a57be063f\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\fc1f039d407e826bb576a04a57be063f\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\9306ee698f737d308543747665332df7\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\9306ee698f737d308543747665332df7\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a52664d1a5284d95c747a2d30c78df04\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a52664d1a5284d95c747a2d30c78df04\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\3fc8d461977b2956492fcb2d9594836b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\3fc8d461977b2956492fcb2d9594836b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\6d0959f2200fc756b4d1b03dc219c598\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\6d0959f2200fc756b4d1b03dc219c598\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\49aeff00bab44ac4eccd482f7f152088\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\49aeff00bab44ac4eccd482f7f152088\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9b9772de39db9b8676c0b8bc4635171f\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9b9772de39db9b8676c0b8bc4635171f\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\android\app\src\main\AndroidManifest.xml:19:7-39
 	android:icon
@@ -280,63 +280,63 @@ ADDED from [:react-native-image-picker] C:\Users\kevin\Desktop\Udemy\react-nativ
 	android:name
 		ADDED from [:react-native-image-picker] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-image-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:17-67
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\333253b9a04ac36e123879fca9984914\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\2389b418e8eeb905bbdf942165f8f24f\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\2389b418e8eeb905bbdf942165f8f24f\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\8887d33ff14a67e9ba17c1bc0119a03a\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\8887d33ff14a67e9ba17c1bc0119a03a\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\17dddad3034d2c84dada05ea040ae9c4\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\17dddad3034d2c84dada05ea040ae9c4\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\57baa925b92b32211943e8d03d3bf923\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\57baa925b92b32211943e8d03d3bf923\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\aa01dadebd576ac10023b50a2741f4cc\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\aa01dadebd576ac10023b50a2741f4cc\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\130f973e9836173f6c79ac84f5e9e290\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\130f973e9836173f6c79ac84f5e9e290\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\4a312ab36795b6fcd289a7a6ba202902\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\4a312ab36795b6fcd289a7a6ba202902\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\4cd01f2189222da992f32a99ee01db3b\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\4cd01f2189222da992f32a99ee01db3b\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b7b74b1aca14c3d0ffdadcea6bdbdc5f\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\b7b74b1aca14c3d0ffdadcea6bdbdc5f\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5a8041236cb812880d3b01f263194a30\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5a8041236cb812880d3b01f263194a30\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a329e2fb671abf4a4eb336c81e9535ac\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a329e2fb671abf4a4eb336c81e9535ac\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\9f56d57d69f2d6014d7ef4b1c6255b98\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a2695c856ebf14eebaed01a11adc7c1a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a2695c856ebf14eebaed01a11adc7c1a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\951a36adc516b48d7144b676b361b1a4\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\951a36adc516b48d7144b676b361b1a4\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\00dde99ac66bee583f1b3c211078467b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\00dde99ac66bee583f1b3c211078467b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\efa6572b3b9e93f09af41e68be23d373\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\efa6572b3b9e93f09af41e68be23d373\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\fc1f039d407e826bb576a04a57be063f\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\fc1f039d407e826bb576a04a57be063f\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\9306ee698f737d308543747665332df7\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\9306ee698f737d308543747665332df7\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a52664d1a5284d95c747a2d30c78df04\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a52664d1a5284d95c747a2d30c78df04\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\3fc8d461977b2956492fcb2d9594836b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\3fc8d461977b2956492fcb2d9594836b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\6d0959f2200fc756b4d1b03dc219c598\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\6d0959f2200fc756b4d1b03dc219c598\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\49aeff00bab44ac4eccd482f7f152088\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\49aeff00bab44ac4eccd482f7f152088\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9b9772de39db9b8676c0b8bc4635171f\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\9b9772de39db9b8676c0b8bc4635171f\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\333253b9a04ac36e123879fca9984914\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\9f56d57d69f2d6014d7ef4b1c6255b98\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\333253b9a04ac36e123879fca9984914\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\9f56d57d69f2d6014d7ef4b1c6255b98\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from [:react-native-maps] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:10:5-81
 	android:name
 		ADDED from [:react-native-maps] C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:10:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\2912d2437bbf50cc68e7a3863ff800f1\AndroidManifest.xml:19:5-78
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\0b9c5b9b75674f2e93d16c9667e6b22a\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\2912d2437bbf50cc68e7a3863ff800f1\AndroidManifest.xml:19:22-76
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\0b9c5b9b75674f2e93d16c9667e6b22a\AndroidManifest.xml:19:22-76
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\2912d2437bbf50cc68e7a3863ff800f1\AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\0b9c5b9b75674f2e93d16c9667e6b22a\AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\2912d2437bbf50cc68e7a3863ff800f1\AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\0b9c5b9b75674f2e93d16c9667e6b22a\AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\2912d2437bbf50cc68e7a3863ff800f1\AndroidManifest.xml:21:52-75
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.0.1.aar\0b9c5b9b75674f2e93d16c9667e6b22a\AndroidManifest.xml:21:52-75
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\e0697d01c65ac7b16512b12d54dc3051\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\3816879d678845e69a231ad66c4259b3\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\e0697d01c65ac7b16512b12d54dc3051\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\3816879d678845e69a231ad66c4259b3\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\e0697d01c65ac7b16512b12d54dc3051\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\3816879d678845e69a231ad66c4259b3\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\e0697d01c65ac7b16512b12d54dc3051\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.0.1.aar\3816879d678845e69a231ad66c4259b3\AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\35e747e62e3229094c283e6e640f7e86\AndroidManifest.xml:20:9-121
-MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\f56b9f80c36575b063c6f3698e6941f8\AndroidManifest.xml:8:9-10:69
-MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\f56b9f80c36575b063c6f3698e6941f8\AndroidManifest.xml:8:9-10:69
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\507cc0de39ca30e764a3164ee3570e4d\AndroidManifest.xml:20:9-121
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\811f2c30b60fe638bebd785466536d4e\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\811f2c30b60fe638bebd785466536d4e\AndroidManifest.xml:8:9-10:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\35e747e62e3229094c283e6e640f7e86\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\507cc0de39ca30e764a3164ee3570e4d\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\35e747e62e3229094c283e6e640f7e86\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\kevin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.0.1.aar\507cc0de39ca30e764a3164ee3570e4d\AndroidManifest.xml:20:20-65
 uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from C:\Users\kevin\Desktop\Udemy\react-native-practical\react-native-places\android\app\src\main\AndroidManifest.xml:1:1-38:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE

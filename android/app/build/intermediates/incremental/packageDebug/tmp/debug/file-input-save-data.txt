@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jun 03 17:24:48 PDT 2018
+#Fri Jun 08 11:25:43 PDT 2018
 17.baseType=DIRECTORY
 4.path=lib/armeabi-v7a/libprivatedata.so
 25.base=C\:\\Users\\kevin\\Desktop\\Udemy\\react-native-practical\\react-native-places\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
