@@ -119,7 +119,7 @@ class SharePlaceScreen extends Component {
   render() {
     let submitButton = (
       <Button
-        title="Share Place"
+        title="Share this Place"
         onPress={this.placeAddedHandler}
         disabled={
           !this.state.controls.placeName.valid
