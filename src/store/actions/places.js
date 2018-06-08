@@ -60,7 +60,7 @@ export const getPlaces = () => {
             image: {
               uri: parsedRes[key].image
             },
-            id: key
+            key: key
           });
         }
         dispatch(setPlaces(places));
