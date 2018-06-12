@@ -47,6 +47,6 @@ Navigation.registerComponent(
 Navigation.startSingleScreenApp({
   screen: {
     screen: "rn-places.AuthScreen",
-    title: "Login"
+    title: "Authentication"
   }
 });
