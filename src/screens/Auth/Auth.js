@@ -6,9 +6,9 @@ import {
   Dimensions,
   KeyboardAvoidingView,
   Keyboard,
-  TouchableWithoutFeedback
+  TouchableWithoutFeedback,
+  ActivityIndicator
 } from 'react-native';
-import startMainTabs from '../MainTabs/startMainTabs';
 import DefaultInput from '../../components/UI/DefaultInput/DefaultInput';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import MainText from '../../components/UI/MainText/MainText';
@@ -79,7 +79,7 @@ class AuthScreen extends Component {
       password: this.state.controls.password.value
     };
     this.props.onLogin(authData);
-    startMainTabs();
+
   };
 
   updateInputState = (key, val) => {
@@ -128,6 +128,19 @@ class AuthScreen extends Component {
   render () {
     let headingText = null;
     let confirmPasswordControl = null;
+    let submitButton = (
+      <ButtonWithBackground
+        color="#29aaf4"
+        onPress={this.loginHandler}
+        disabled={
+          !this.state.controls.password.valid ||
+          !this.state.controls.confirmPassword.valid && this.state.authMode === "signup" ||
+          !this.state.controls.email.valid}
+        secureTextEntry
+      >
+        Submit
+      </ButtonWithBackground>
+    );
     if (this.state.viewMode === "portrait") {
       headingText = (
         <MainText style={{color: "white"}}>
@@ -154,6 +167,9 @@ class AuthScreen extends Component {
         />
         </View>
       )
+    }
+    if (this.props.isLoading) {
+      submitButton = <ActivityIndicator />
     }
     return (
       <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
@@ -204,18 +220,7 @@ class AuthScreen extends Component {
                     {confirmPasswordControl}
                   </View>
                 </View>
-
-              <ButtonWithBackground
-                color="#29aaf4"
-                onPress={this.loginHandler}
-                disabled={
-                  !this.state.controls.password.valid ||
-                  !this.state.controls.confirmPassword.valid && this.state.authMode === "signup" ||
-                  !this.state.controls.email.valid}
-                secureTextEntry
-              >
-                Submit
-              </ButtonWithBackground>
+              {submitButton}
             </KeyboardAvoidingView>
           </ImageBackground>
         </View>
@@ -261,10 +266,16 @@ const styles = StyleSheet.create({
   }
 });
 
+mapStateToProps = state => {
+  return {
+    isLoading: state.ui.isLoading
+  }
+};
+
 const mapDispatchToProps = dispatch => {
   return {
     onLogin: (authData) => dispatch(tryAuth(authData))
   }
 };
 
-export default connect(null, mapDispatchToProps)(AuthScreen);
+export default connect(mapStateToProps, mapDispatchToProps)(AuthScreen);

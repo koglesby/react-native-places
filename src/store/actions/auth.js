@@ -1,4 +1,6 @@
-import { TRY_AUTH } from "./actionTypes";
+// import { TRY_AUTH } from "./actionTypes";
+import { uiStartLoading, uiStopLoading } from "./index";
+import  startMainTabs  from "../../screens/MainTabs/startMainTabs";
 
 export const tryAuth = (authData) => {
   return dispatch => {
@@ -8,6 +10,7 @@ export const tryAuth = (authData) => {
 
 export const authSignup = (authData) => {
   return dispatch => {
+    dispatch(uiStartLoading());
     fetch("https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyDVaaJqfMSq5JejlsBvGF6VUquDX6nPFp8", {
       method: "POST",
       body: JSON.stringify({
@@ -22,10 +25,17 @@ export const authSignup = (authData) => {
       .catch(err => {
         console.log(err);
         alert("Authentication failed. Sorry :(");
+        dispatch(uiStopLoading());
       })
       .then(res => res.json())
       .then(parsedRes => {
-        console.log(parsedRes)
+        dispatch(uiStopLoading());
+        if (parsedRes.error) {
+          alert("Something went wrong. Message: " + parsedRes.error.message);
+        } else {
+          startMainTabs();
+        }
+        console.log(parsedRes);
       });
   }
 };
