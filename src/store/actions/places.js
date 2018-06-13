@@ -1,5 +1,5 @@
 import {REMOVE_PLACE, SET_PLACES} from './actionTypes';
-import { uiStartLoading, uiStopLoading } from "./index";
+import { uiStartLoading, uiStopLoading, authGetToken } from "./index";
 
 export const addPlace = (placeName, location, image) => {
   return dispatch => {
@@ -47,19 +47,25 @@ export const addPlace = (placeName, location, image) => {
 
 export const getPlaces = () => {
   return dispatch => {
-    fetch("https://rn-places.firebaseio.com/places.json")
-    .then(res => res.json())
-    .then(parsedRes => {
-      const places = [];
-      for (let key in parsedRes) {
-        places.push({
-          ...parsedRes[key],
-          image: {
-            uri: parsedRes[key].image
-          },
-          key: key
-        });
-      }
+    dispatch(authGetToken())
+      .then(token => {
+        return fetch("https://rn-places.firebaseio.com/places.json?auth=" + token);
+      })
+      .catch(() => {
+        alert('no valid token found.');
+      })
+      .then(res => res.json())
+      .then(parsedRes => {
+        const places = [];
+        for (let key in parsedRes) {
+          places.push({
+            ...parsedRes[key],
+            image: {
+              uri: parsedRes[key].image
+            },
+            key: key
+          });
+        }
       dispatch(setPlaces(places));
     })
     .catch(err => {
@@ -79,6 +85,7 @@ export const setPlaces = places => {
 export const deletePlace = (key) => {
   return dispatch => {
     dispatch(removePlace(key));
+
     fetch("https://rn-places.firebaseio.com/places/" +
       key +
       ".json", {
