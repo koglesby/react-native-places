@@ -16,7 +16,7 @@ import ButtonWithBackground from '../../components/UI/ButtonWithBackground/Butto
 import backgroundImage from '../../assets/background.jpg'
 import validate from '../../utility/validation';
 import { connect } from 'react-redux';
-import { tryAuth } from "../../store/actions";
+import { tryAuth, authAutoSignIn } from "../../store/actions";
 
 class AuthScreen extends Component {
   state = {
@@ -57,6 +57,10 @@ class AuthScreen extends Component {
 
   componentWillUnmount() {
     Dimensions.removeEventListener("change", this.updateStyles);
+  }
+
+  componentDidMount() {
+    this.props.onAutoSignIn();
   }
 
   switchAuthModeHandler = () => {
@@ -121,7 +125,6 @@ class AuthScreen extends Component {
         }
       }
     })
-
   };
 
   render () {
@@ -274,7 +277,8 @@ mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onTryAuth: (authData, authMode) => dispatch(tryAuth(authData, authMode))
+    onTryAuth: (authData, authMode) => dispatch(tryAuth(authData, authMode)),
+    onAutoSignIn: () => dispatch(authAutoSignIn())
   }
 };
 
