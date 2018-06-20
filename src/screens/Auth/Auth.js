@@ -61,6 +61,7 @@ class AuthScreen extends Component {
 
   componentDidMount() {
     this.props.onAutoSignIn();
+    console.log('Auth component did mount');
   }
 
   switchAuthModeHandler = () => {
@@ -269,7 +270,7 @@ const styles = StyleSheet.create({
   }
 });
 
-mapStateToProps = state => {
+const mapStateToProps = state => {
   return {
     isLoading: state.ui.isLoading
   }
