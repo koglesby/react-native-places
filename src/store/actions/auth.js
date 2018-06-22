@@ -32,7 +32,7 @@ export const tryAuth = (authData, authMode) => {
       .then(res => res.json())
       .then(parsedRes => {
         dispatch(uiStopLoading());
-        console.log("parsedRes:", parsedRes);
+        // returns an object with id token, expires in, refresh token
         if (!parsedRes.idToken) {
           alert("Something went wrong :(");
         } else {
@@ -42,6 +42,8 @@ export const tryAuth = (authData, authMode) => {
               parsedRes.expiresIn,
               parsedRes.refreshToken
             )
+            // stores the token, expiryDate (expiresIn converted to Date), and refresh token in AsyncStorage
+            // also stores the token and expiryDate in redux state
           );
           startMainTabs();
         }
@@ -51,9 +53,9 @@ export const tryAuth = (authData, authMode) => {
 
 export const authStoreToken = (token, expiresIn, refreshToken) => {
   return dispatch => {
-    dispatch(authSetToken(token));
     const now = new Date();
     const expiryDate = now.getTime() + expiresIn * 1000;
+    dispatch(authSetToken(token, expiryDate));
     // console.log(now, new Date(expiryDate));
     AsyncStorage.setItem("rnp:auth:token", token);
     AsyncStorage.setItem("rnp:auth:expiryDate", expiryDate.toString());
@@ -61,10 +63,11 @@ export const authStoreToken = (token, expiresIn, refreshToken) => {
   };
 };
 
-export const authSetToken = token => {
+export const authSetToken = (token, expiryDate) => {
   return {
     type: AUTH_SET_TOKEN,
-    token: token
+    token: token,
+    expiryDate: expiryDate
   };
 };
 
@@ -72,7 +75,10 @@ export const authGetToken = () => {
   return (dispatch, getState) => {
     const promise = new Promise((resolve, reject) => {
       const token = getState().auth.token;
-      if (!token) {
+      const expiryDate = getState().auth.expiryDate;
+      if (!token || new Date(expiryDate) < new Date()) {
+        // based on the redux state, if there is no token, or it has expired
+        // retrieve the token and expiryDate from AsyncStorage
         let fetchedToken;
         AsyncStorage.getItem("rnp:auth:token")
           .catch(err => reject())
@@ -93,6 +99,7 @@ export const authGetToken = () => {
             } else {
               reject();
             }
+            // if the token from AsyncStorage hasn't expired, save the token and expiryDate in redux state
           })
           .catch(err => reject());
       } else {
@@ -100,8 +107,11 @@ export const authGetToken = () => {
       }
     });
     return promise.catch(err => {
+      // if no token in found in AsyncStorage, or if the the expiryDate from AsyncStorage has passed,
+      // retrieve the refreshToken from AsyncStorage
       return AsyncStorage.getItem("rnp:auth:refreshToken")
         .then(refreshToken => {
+          console.log("refreshing the token. refreshToken: ", refreshToken);
           return fetch("https://securetoken.googleapis.com/v1/token?key=" + API_KEY, {
             method: "POST",
             headers: {
@@ -110,6 +120,8 @@ export const authGetToken = () => {
             body: "grant_type=refresh_token&refresh_token=" + refreshToken
           });
         })
+        // then use that token for a post request,
+        // and receive a new token, expires_in, and refresh token
         .then(res => res.json())
         .then(parsedRes => {
           if (parsedRes.id_token) {
@@ -120,9 +132,12 @@ export const authGetToken = () => {
                 parsedRes.refresh_token
               )
             );
+            // save the info in AsyncStorage and redux state (minus the refresh token)
+            // return the new token
             return parsedRes.id_token;
           } else {
             dispatch(authClearStorage());
+            // if the refresh token doesn't work and an id token is not returned, clear AsyncStorage
           }
         });
     })
