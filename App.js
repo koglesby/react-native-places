@@ -39,14 +39,18 @@ Navigation.registerComponent(
 
 Navigation.registerComponent(
   "rn-places.SideDrawerScreen",
-  () => SideDrawerScreen
+  () => SideDrawerScreen,
+  store,
+  Provider
 );
 
 // Start App
 
-Navigation.startSingleScreenApp({
+export default () => Navigation.startSingleScreenApp({
   screen: {
     screen: "rn-places.AuthScreen",
     title: "Authentication"
   }
 });
+
+
