@@ -25,31 +25,37 @@ class SharePlaceScreen extends Component {
     navBarButtonColor: "orange"
   };
 
-  state = {
-    controls: {
-      placeName: {
-        value: "",
-        valid: false,
-        touched: false,
-        validationRules: {
-          notEmpty: false
-        }
-      },
-      location: {
-        value: null,
-        valid: false
-      },
-      image: {
-        value: null,
-        valid: false
-      }
-    }
-  };
-
   constructor(props) {
     super(props);
     this.props.navigator.setOnNavigatorEvent(this.onNavEvent);
   }
+
+  componentWillMount = () => {
+    this.reset();
+  };
+
+  reset = () => {
+    this.setState({
+      controls: {
+        placeName: {
+          value: "",
+          valid: false,
+          touched: false,
+          validationRules: {
+            notEmpty: false
+          }
+        },
+        location: {
+          value: null,
+          valid: false
+        },
+        image: {
+          value: null,
+          valid: false
+        }
+      }
+    });
+  };
 
   onNavEvent = event => {
     if (event.type === "NavBarButtonPress") {
@@ -99,7 +105,10 @@ class SharePlaceScreen extends Component {
       this.state.controls.placeName.value,
       this.state.controls.location.value,
       this.state.controls.image.value
-    )
+    );
+    this.reset();
+    this.pickImage.reset();
+    this.pickLocation.reset();
   };
 
   locationPickedHandler = location => {
@@ -137,8 +146,15 @@ class SharePlaceScreen extends Component {
       <ScrollView>
         <KeyboardAvoidingView behavior="padding" style={styles.container}>
           <MainText><HeadingText>Share a place with us!</HeadingText></MainText>
-          <PickImage onImagePicked={this.imagePickedHandler}/>
-          <PickLocation onLocationPick={this.locationPickedHandler}/>
+          <PickImage
+            onImagePicked={this.imagePickedHandler}
+            ref={ref => this.pickImage = ref}
+            // a reference to the PickImage component is stored as this.pickImage
+          />
+          <PickLocation
+            onLocationPick={this.locationPickedHandler}
+            ref={ref => this.pickLocation = ref}
+          />
           <PlaceInput
             placeName={this.state.controls.placeName.value}
             onChangeText={this.placeNameChangedHandler}
