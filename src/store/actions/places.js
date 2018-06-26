@@ -33,7 +33,13 @@ export const addPlace = (placeName, location, image) => {
         alert("Something wen't wrong. Please try again.");
         dispatch(uiStopLoading());
       })
-      .then(res => res.json())
+      .then(res => {
+        if (res.ok) {
+         return res.json() ;
+        } else {
+          throw(new Error());
+        }
+      })
       .then(parsedRes => {
         const placeData = {
           name: placeName,
@@ -48,7 +54,13 @@ export const addPlace = (placeName, location, image) => {
           body: JSON.stringify(placeData)
         });
       })
-      .then(res => res.json())
+      .then(res => {
+        if (res.ok) {
+          return res.json() ;
+        } else {
+          throw(new Error());
+        }
+      })
       .then(parsedRes => {
         console.log(parsedRes);
         dispatch(uiStopLoading());
