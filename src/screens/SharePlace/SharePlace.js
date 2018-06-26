@@ -12,7 +12,7 @@ import {
 
 import { connect } from 'react-redux';
 
-import { addPlace } from "../../store/actions";
+import {addPlace, startAddPlace} from "../../store/actions";
 import MainText from '../../components/UI/MainText/MainText';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import PlaceInput from "../../components/PlaceInput/PlaceInput";
@@ -57,7 +57,19 @@ class SharePlaceScreen extends Component {
     });
   };
 
+  componentDidUpdate = () => {
+    if (this.props.placeAdded) {
+      this.props.navigator.switchToTab({tabIndex: 0});
+    }
+  };
+
   onNavEvent = event => {
+    // console.log("onNavEvent event :", event);
+    if (event.type === "ScreenChangedEvent") {
+      if (event.id === "willAppear") {
+        this.props.onStartAddPlace();
+      }
+    }
     if (event.type === "NavBarButtonPress") {
       if (event.id === "sideDrawerToggle") {
         this.props.navigator.toggleDrawer({
@@ -109,6 +121,7 @@ class SharePlaceScreen extends Component {
     this.reset();
     this.pickImage.reset();
     this.pickLocation.reset();
+    // this.props.navigator.switchToTab({tabIndex: 0});
   };
 
   locationPickedHandler = location => {
@@ -179,13 +192,15 @@ const styles = StyleSheet.create({
 
 const mapStateToProps = state => {
   return {
-    isLoading: state.ui.isLoading
+    isLoading: state.ui.isLoading,
+    placeAdded: state.places.placeAdded
   }
 };
 
 const mapDispatchToProps = dispatch => {
   return {
-    onAddPlace: (placeName, location, image) => dispatch(addPlace(placeName, location, image))
+    onAddPlace: (placeName, location, image) => dispatch(addPlace(placeName, location, image)),
+    onStartAddPlace: () => dispatch(startAddPlace())
   }
 };
 
