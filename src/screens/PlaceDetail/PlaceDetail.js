@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {ScrollView, View, Image, Text, StyleSheet, TouchableOpacity, Platform, Dimensions} from 'react-native';
+import {View, Image, Text, StyleSheet, TouchableOpacity, Platform, Dimensions} from 'react-native';
 import { connect } from 'react-redux';
 
 import Icon from 'react-native-vector-icons/Ionicons';

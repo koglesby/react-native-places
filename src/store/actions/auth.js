@@ -1,5 +1,5 @@
 import { AsyncStorage } from 'react-native';
-import { AUTH_SET_TOKEN, TRY_AUTH, AUTH_REMOVE_TOKEN } from "./actionTypes";
+import { AUTH_SET_TOKEN, AUTH_REMOVE_TOKEN } from "./actionTypes";
 import { uiStartLoading, uiStopLoading } from "./index";
 import  startMainTabs  from "../../screens/MainTabs/startMainTabs";
 import App from '../../../App';
