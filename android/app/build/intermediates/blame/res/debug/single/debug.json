@@ -2060,6 +2060,10 @@
         "source": "C:\\Users\\kevin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\53510ab2400d43fdd9eefee5089acbf0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "C:\\Users\\kevin\\Desktop\\Udemy\\react-native-practical\\react-native-places\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_assets_background.jpg.flat",
+        "source": "C:\\Users\\kevin\\Desktop\\Udemy\\react-native-practical\\react-native-places\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_background.jpg"
+    },
+    {
         "merged": "C:\\Users\\kevin\\Desktop\\Udemy\\react-native-practical\\react-native-places\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_search.png.flat",
         "source": "C:\\Users\\kevin\\Desktop\\Udemy\\react-native-practical\\react-native-places\\node_modules\\react-native-navigation\\android\\app\\build\\intermediates\\packaged_res\\debug\\drawable-hdpi-v4\\search.png"
     },

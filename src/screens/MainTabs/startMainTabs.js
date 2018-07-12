@@ -49,7 +49,8 @@ const startTabs = () => {
       },
       drawer: {
         left: {
-          screen: "rn-places.SideDrawerScreen"
+          screen: "rn-places.SideDrawerScreen",
+          disableOpenGesture: false // can the drawer be opened with a swipe instead of button (optional, Android only
         }
       }
     });
