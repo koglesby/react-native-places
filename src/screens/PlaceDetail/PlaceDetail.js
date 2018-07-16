@@ -45,6 +45,11 @@ class PlaceDetail extends Component {
           <View style={styles.subContainer}>
             <Image source={this.props.selectedPlace.image} style={styles.placeImage}/>
           </View>
+          <View>
+            <Text>
+              {this.props.selectedPlace.userEmail ? this.props.selectedPlace.userEmail: null}
+            </Text>
+          </View>
           <View style={styles.subContainer}>
             <MapView
               initialRegion={{

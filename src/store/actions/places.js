@@ -1,5 +1,5 @@
 import {REMOVE_PLACE, SET_PLACES, PLACE_ADDED, START_ADD_PLACE} from './actionTypes';
-import { uiStartLoading, uiStopLoading, authGetToken } from "./index";
+import { uiStartLoading, uiStopLoading, authGetToken, authGetCurrentUser } from "./index";
 
 export const startAddPlace = () => {
   return {
@@ -15,9 +15,9 @@ export const addPlace = (placeName, location, image) => {
       .catch(() => {
         alert('no valid token found.');
       })
+      // image posted to the firebase storage
       .then(token => {
         authToken = token;
-        // image posted to the firebase storage
         return fetch("https://us-central1-rn-places.cloudfunctions.net/storeImage", {
           method: "POST",
           body: JSON.stringify({
@@ -41,38 +41,34 @@ export const addPlace = (placeName, location, image) => {
         }
       })
       .then(parsedRes => {
-        const placeData = {
-          name: placeName,
-          location: location,
-          image: parsedRes.imageUrl,
-          imagePath: parsedRes.imagePath
-        };
-        // the place object is constructed
-        // using the imageUrl returned from firebase
-        // And is posted to firebase database
-        return fetch("https://rn-places.firebaseio.com/places.json?auth=" + authToken, {
-          method: "POST",
-          body: JSON.stringify(placeData)
+        dispatch(authGetCurrentUser())
+          .then(currentUser => {
+            const placeData = {
+              name: placeName,
+              location: location,
+              userEmail: currentUser.userEmail,
+              userId: currentUser.userId,
+              image: parsedRes.imageUrl,
+              imagePath: parsedRes.imagePath
+            };
+            return fetch("https://rn-places.firebaseio.com/places.json?auth=" + authToken, {
+              method: "POST",
+              body: JSON.stringify(placeData)
+            });
+          })
+          .then(res => {
+            dispatch(uiStopLoading());
+            dispatch(placeAdded());
+            dispatch(getPlaces());
+          })
+          .catch(err => {
+            console.log(err);
+            alert("Something wen't wrong. Please try again.");
+            dispatch(uiStopLoading());
+          });
         });
-      })
-      .then(res => {
-        if (res.ok) {
-          return res.json() ;
-        } else {
-          throw(new Error());
-        }
-      })
-      .then(parsedRes => {
-        console.log(parsedRes);
-        dispatch(uiStopLoading());
-        dispatch(placeAdded());
-        dispatch(getPlaces());
-      })
-      .catch(err => {
-        console.log(err);
-        alert("Something wen't wrong. Please try again.");
-        dispatch(uiStopLoading());
-      });
+        // the place object is constructed using the imageUrl returned from firebase
+        // then posted to firebase database
   };
 };
 

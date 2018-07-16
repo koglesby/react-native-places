@@ -1,8 +1,10 @@
-import { AUTH_REMOVE_TOKEN, AUTH_SET_TOKEN } from "../actions/actionTypes";
+import { AUTH_REMOVE_TOKEN, AUTH_SET_TOKEN, AUTH_SET_CURRENT_USER } from "../actions/actionTypes";
 
 const initialState = {
   token: null,
-  expiryDate: null
+  expiryDate: null,
+  userEmail: null,
+  userId: null
 };
 
 const reducer = (state = initialState, action) => {
@@ -12,6 +14,12 @@ const reducer = (state = initialState, action) => {
         ...state,
         token: action.token,
         expiryDate: action.expiryDate
+      };
+    case AUTH_SET_CURRENT_USER:
+      return {
+        ...state,
+        userEmail: action.userEmail,
+        userId: action.userId
       };
     case AUTH_REMOVE_TOKEN:
       return {

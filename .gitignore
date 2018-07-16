@@ -16,3 +16,28 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# generated files
+bin/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Android Studio
+*.iml
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
+.navigation
+captures/
+
+#NDK
+obj/
+.externalNativeBuild

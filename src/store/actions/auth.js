@@ -1,5 +1,5 @@
 import { AsyncStorage } from 'react-native';
-import { AUTH_SET_TOKEN, AUTH_REMOVE_TOKEN } from "./actionTypes";
+import { AUTH_SET_TOKEN, AUTH_REMOVE_TOKEN, AUTH_SET_CURRENT_USER } from "./actionTypes";
 import { uiStartLoading, uiStopLoading } from "./index";
 import  startMainTabs  from "../../screens/MainTabs/startMainTabs";
 import App from '../../../App';
@@ -36,6 +36,7 @@ export const tryAuth = (authData, authMode) => {
         if (!parsedRes.idToken) {
           alert("Something went wrong :(");
         } else {
+          console.log("the parsedRes", parsedRes);
           dispatch(
             authStoreToken(
               parsedRes.idToken,
@@ -45,6 +46,7 @@ export const tryAuth = (authData, authMode) => {
             // stores the token, expiryDate (expiresIn converted to Date), and refresh token in AsyncStorage
             // also stores the token and expiryDate in redux state
           );
+          dispatch(authStoreUser(parsedRes.email, parsedRes.localId));
           startMainTabs();
         }
       });
@@ -56,11 +58,55 @@ export const authStoreToken = (token, expiresIn, refreshToken) => {
     const now = new Date();
     const expiryDate = now.getTime() + expiresIn * 1000;
     dispatch(authSetToken(token, expiryDate));
-    // console.log(now, new Date(expiryDate));
+
     AsyncStorage.setItem("rnp:auth:token", token);
     AsyncStorage.setItem("rnp:auth:expiryDate", expiryDate.toString());
-    AsyncStorage.setItem("rnp:auth:refreshToken", refreshToken)
+    AsyncStorage.setItem("rnp:auth:refreshToken", refreshToken);
   };
+};
+
+export const authStoreUser = (userEmail, userId) => {
+  return dispatch => {
+    dispatch(authSetCurrentUser(userEmail, userId));
+
+    AsyncStorage.setItem("rnp:auth:userEmail", userEmail);
+    AsyncStorage.setItem("rnp:auth:userId", userId);
+  };
+};
+
+export const authSetCurrentUser = (userEmail, userId) => {
+  return {
+    type: AUTH_SET_CURRENT_USER,
+    userEmail: userEmail,
+    userId: userId
+  }
+};
+
+export const authGetCurrentUser = () => {
+  return (dispatch, getState) => {
+    const userEmail = getState().auth.userEmail;
+    const userId = getState().auth.userId;
+
+    let fetchedUserEmail;
+
+    return new Promise((resolve, reject) => {
+      if (userEmail) {
+        resolve({userEmail: userEmail, userId: userId});
+      } else {
+        AsyncStorage.getItem("rnp:auth:userEmail")
+          .catch(err => reject())
+          .then(userEmailFromStorage => {
+              fetchedUserEmail = userEmailFromStorage;
+              return AsyncStorage.getItem("rnp:auth:userId")
+            }
+          ).then(userIdFromStorage => {
+          // console.log("new authGetCurrentUser", {userEmail: fetchedUserEmail, userId: userIdFromStorage})
+          resolve({userEmail: fetchedUserEmail, userId: userIdFromStorage})
+        })
+      }
+    })
+
+  }
 };
 
 export const authSetToken = (token, expiryDate) => {
@@ -111,7 +157,6 @@ export const authGetToken = () => {
       // retrieve the refreshToken from AsyncStorage
       return AsyncStorage.getItem("rnp:auth:refreshToken")
         .then(refreshToken => {
-          console.log("refreshing the token. refreshToken: ", refreshToken);
           return fetch("https://securetoken.googleapis.com/v1/token?key=" + API_KEY, {
             method: "POST",
             headers: {
@@ -157,7 +202,7 @@ export const authAutoSignIn = () => {
       .then(token => {
         startMainTabs();
       })
-      .catch(err => console.log("Failed to fetch token"));
+      .catch(err => console.log("Failed to fetch token " + err));
   };
 };
 
@@ -165,6 +210,7 @@ export const authClearStorage = () => {
   return dispatch => {
     AsyncStorage.removeItem("rnp:auth:token");
     AsyncStorage.removeItem("rnp:auth:expiryDate");
+    AsyncStorage.removeItem("rnp:auth:userEmail");
     return AsyncStorage.removeItem("rnp:auth:refreshToken");
   };
 };
