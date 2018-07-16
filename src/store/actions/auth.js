@@ -210,7 +210,9 @@ export const authClearStorage = () => {
   return dispatch => {
     AsyncStorage.removeItem("rnp:auth:token");
     AsyncStorage.removeItem("rnp:auth:expiryDate");
+
     AsyncStorage.removeItem("rnp:auth:userEmail");
+    AsyncStorage.removeItem("rnp:auth:userId");
     return AsyncStorage.removeItem("rnp:auth:refreshToken");
   };
 };
