@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, StyleSheet, Animated } from 'react-native
 import { connect } from 'react-redux';
 
 import PlaceList from '../../components/PlaceList/PlaceList';
-import { getPlaces } from "../../store/actions";
+import {authGetCurrentUser, getPlaces} from "../../store/actions";
 
 class FindPlaceScreen extends Component {
   static navigatorStyle = {
@@ -65,13 +65,17 @@ class FindPlaceScreen extends Component {
 
     // selectedPlace:  place object with key that matches the selected key
     // navigates to PlaceDetail, passes selectedPlace as props
-    this.props.navigator.push({
-      screen: "rn-places.PlaceDetailScreen",
-      title: selPlace.name,
-      passProps: {
-        selectedPlace: selPlace
-      }
+    this.props.onGetCurrentUser().then(currentUser => {
+      this.props.navigator.push({
+        screen: "rn-places.PlaceDetailScreen",
+        title: selPlace.name,
+        passProps: {
+          selectedPlace: selPlace,
+          currentUser: currentUser
+        }
+      })
     })
+
   };
 
   render() {
@@ -141,7 +145,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onLoadPlaces: () => dispatch(getPlaces())
+    onLoadPlaces: () => dispatch(getPlaces()),
+    onGetCurrentUser: () => dispatch(authGetCurrentUser())
   }
 };
 

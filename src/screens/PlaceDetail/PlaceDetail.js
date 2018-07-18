@@ -22,16 +22,34 @@ class PlaceDetail extends Component {
 
   updateStyles = dims => {
     this.setState({
+      ...this.state,
       viewMode: dims.window.height > 500 ? "portrait" : "landscape"
     });
   };
 
   placeDeleteHandler = () => {
-    this.props.onDeletePlace(this.props.selectedPlace.key);
+    console.log(this.props.selectedPlace);
+    this.props.onDeletePlace(this.props.selectedPlace.key, this.props.selectedPlace.userId);
     this.props.navigator.pop();
   };
 
   render() {
+    let trash = null;
+    if (this.props.currentUser.userId === this.props.selectedPlace.userId) {
+      trash = (
+        <View>
+          <TouchableOpacity onPress={this.placeDeleteHandler}>
+            <View style={styles.deleteButton}>
+              <Icon
+                size={30}
+                name={Platform.OS === "android" ? "md-trash" : "ios-trash"}
+                color="red"/>
+            </View>
+          </TouchableOpacity>
+        </View>
+      )
+    }
+
     return (
       <View
         style={[
@@ -69,16 +87,7 @@ class PlaceDetail extends Component {
               {this.props.selectedPlace.name}
               </Text>
           </View>
-          <View>
-            <TouchableOpacity onPress={this.placeDeleteHandler}>
-              <View style={styles.deleteButton}>
-                <Icon
-                  size={30}
-                  name={Platform.OS === "android" ? "md-trash" : "ios-trash"}
-                  color="red"/>
-              </View>
-            </TouchableOpacity>
-          </View>
+          {trash}
         </View>
       </View>
     );
@@ -121,7 +130,7 @@ const styles = StyleSheet.create({
 
 const mapDispatchToProps = dispatch => {
   return {
-    onDeletePlace: (key) => dispatch(deletePlace(key))
+    onDeletePlace: (key, creatorId) => dispatch(deletePlace(key, creatorId))
   }
 };
 
