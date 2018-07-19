@@ -17,6 +17,7 @@ import PlaceInput from "../../components/PlaceInput/PlaceInput";
 import PickImage from "../../components/PickImage/PickImage";
 import PickLocation from "../../components/PickLocation/PickLocation";
 import validate from "../../utility/validation";
+import PlaceDescription from "../../components/PlaceDescription/PlaceDescription";
 
 class SharePlaceScreen extends Component {
   static navigatorStyle = {
@@ -42,6 +43,9 @@ class SharePlaceScreen extends Component {
           validationRules: {
             notEmpty: false
           }
+        },
+        placeDescription: {
+          value: null
         },
         location: {
           value: null,
@@ -93,6 +97,20 @@ class SharePlaceScreen extends Component {
     })
   };
 
+  descriptionChangedHandler = val => {
+    this.setState(prevState => {
+      return {
+        controls: {
+          ...prevState.controls,
+          placeDescription: {
+            ...prevState.controls.placeDescription,
+            value: val
+          }
+        }
+      }
+    })
+  };
+
   imagePickedHandler = image => {
     // receives and image from the image picker in  the PickImage component
     // as an object { uri: res.uri }
@@ -115,7 +133,8 @@ class SharePlaceScreen extends Component {
       this.state.controls.placeName.value,
       this.state.controls.location.value,
       this.state.controls.image.value,
-      this.props.currentUser
+      this.props.currentUser,
+      this.state.controls.placeDescription.value ? this.state.controls.placeDescription.value : null
     );
     this.reset();
     this.pickImage.reset();
@@ -173,6 +192,11 @@ class SharePlaceScreen extends Component {
             valid={this.state.controls.placeName.valid}
             touched={this.state.controls.placeName.touched}
           />
+          <PlaceDescription
+            description={this.state.controls.placeDescription.value}
+            onChangeText={this.descriptionChangedHandler}
+            valid={true}
+          />
           <View style={styles.button}>
             {submitButton}
           </View>
@@ -199,7 +223,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onAddPlace: (placeName, location, image, currentUser) => dispatch(addPlace(placeName, location, image, currentUser)),
+    onAddPlace: (placeName, location, image, currentUser, description) => dispatch(addPlace(placeName, location, image, currentUser, description)),
     onStartAddPlace: () => dispatch(startAddPlace())
   }
 };

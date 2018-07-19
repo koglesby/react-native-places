@@ -65,6 +65,9 @@ class PlaceDetail extends Component {
           </View>
           <View>
             <Text>
+              {this.props.selectedPlace.description ? this.props.selectedPlace.description: null}
+            </Text>
+            <Text>
               {this.props.selectedPlace.userEmail ? this.props.selectedPlace.userEmail: null}
             </Text>
           </View>

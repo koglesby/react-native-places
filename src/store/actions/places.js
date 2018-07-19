@@ -7,7 +7,7 @@ export const startAddPlace = () => {
   }
 };
 
-export const addPlace = (placeName, location, image, currentUser) => {
+export const addPlace = (placeName, location, image, currentUser, description) => {
   return dispatch => {
     let authToken;
     dispatch(uiStartLoading());
@@ -46,6 +46,7 @@ export const addPlace = (placeName, location, image, currentUser) => {
           location: location,
           userEmail: currentUser.userEmail,
           userId: currentUser.userId,
+          description: description,
           image: parsedRes.imageUrl,
           imagePath: parsedRes.imagePath
         };
