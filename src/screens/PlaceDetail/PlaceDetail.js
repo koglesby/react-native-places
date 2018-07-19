@@ -35,7 +35,7 @@ class PlaceDetail extends Component {
 
   render() {
     let trash = null;
-    if (this.props.user === this.props.selectedPlace.userId) {
+    if (this.props.userId === this.props.selectedPlace.userId) {
       trash = (
         <View>
           <TouchableOpacity onPress={this.placeDeleteHandler}>
@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
 
 const mapStateToProps = state => {
   return {
-    user: state.auth.userId
+    userId: state.auth.userId
   }
 };
 

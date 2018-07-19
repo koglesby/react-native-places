@@ -1,7 +1,6 @@
 import { Navigation } from 'react-native-navigation';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { Platform } from 'react-native';
-import {connect} from "react-redux";
 
 const startTabs = (user) => {
   Promise.all([
