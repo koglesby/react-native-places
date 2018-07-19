@@ -47,7 +47,7 @@ export const tryAuth = (authData, authMode) => {
             // also stores the token and expiryDate in redux state
           );
           dispatch(authStoreUser(parsedRes.email, parsedRes.localId));
-          startMainTabs();
+          startMainTabs(parsedRes.email);
         }
       });
   };
@@ -100,8 +100,8 @@ export const authGetCurrentUser = () => {
               return AsyncStorage.getItem("rnp:auth:userId")
             }
           ).then(userIdFromStorage => {
-          // console.log("new authGetCurrentUser", {userEmail: fetchedUserEmail, userId: userIdFromStorage})
-          resolve({userEmail: fetchedUserEmail, userId: userIdFromStorage})
+            dispatch(authSetCurrentUser(fetchedUserEmail, userIdFromStorage));
+          resolve({userEmail: fetchedUserEmail, userId: userIdFromStorage});
         })
       }
     })
@@ -200,7 +200,9 @@ export const authAutoSignIn = () => {
   return dispatch => {
     dispatch(authGetToken())
       .then(token => {
-        startMainTabs();
+        dispatch(authGetCurrentUser()).then(user => {
+          startMainTabs(user.userEmail);
+        })
       })
       .catch(err => console.log("Failed to fetch token " + err));
   };

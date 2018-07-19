@@ -1,4 +1,4 @@
-import {REMOVE_PLACE, SET_PLACES, PLACE_ADDED, START_ADD_PLACE, GET_PLACE_CREATOR} from './actionTypes';
+import {REMOVE_PLACE, SET_PLACES, PLACE_ADDED, START_ADD_PLACE} from './actionTypes';
 import { uiStartLoading, uiStopLoading, authGetToken, authGetCurrentUser } from "./index";
 
 export const startAddPlace = () => {
