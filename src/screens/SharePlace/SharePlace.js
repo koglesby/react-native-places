@@ -114,7 +114,8 @@ class SharePlaceScreen extends Component {
     this.props.onAddPlace(
       this.state.controls.placeName.value,
       this.state.controls.location.value,
-      this.state.controls.image.value
+      this.state.controls.image.value,
+      this.props.currentUser
     );
     this.reset();
     this.pickImage.reset();
@@ -191,13 +192,14 @@ const styles = StyleSheet.create({
 const mapStateToProps = state => {
   return {
     isLoading: state.ui.isLoading,
-    placeAdded: state.places.placeAdded
+    placeAdded: state.places.placeAdded,
+    currentUser: {userEmail: state.auth.userEmail, userId: state.auth.userId}
   }
 };
 
 const mapDispatchToProps = dispatch => {
   return {
-    onAddPlace: (placeName, location, image) => dispatch(addPlace(placeName, location, image)),
+    onAddPlace: (placeName, location, image, currentUser) => dispatch(addPlace(placeName, location, image, currentUser)),
     onStartAddPlace: () => dispatch(startAddPlace())
   }
 };
