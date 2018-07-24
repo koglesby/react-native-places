@@ -7,6 +7,8 @@ const placeList = (props) => {
     <FlatList
       style={styles.listContainer}
       data={props.places}
+      onEndReachedThreshhold={0}
+      onEndReached={props.endReached}
       renderItem={(info) => (
         <ListItem
           placeName={info.item.name}

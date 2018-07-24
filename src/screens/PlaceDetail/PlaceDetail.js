@@ -50,6 +50,20 @@ class PlaceDetail extends Component {
       )
     }
 
+    let caption = null;
+    if (this.props.selectedPlace.description || this.props.selectedPlace.userEmail) {
+      caption = (
+        <View style={styles.captionBox}>
+          <Text>
+            {this.props.selectedPlace.description ? this.props.selectedPlace.description: null}
+          </Text>
+          <Text>
+            {this.props.selectedPlace.userEmail ? this.props.selectedPlace.userEmail: null}
+          </Text>
+        </View>
+      )
+    }
+
     return (
       <View
         style={[
@@ -63,14 +77,7 @@ class PlaceDetail extends Component {
           <View style={styles.subContainer}>
             <Image source={this.props.selectedPlace.image} style={styles.placeImage}/>
           </View>
-          <View>
-            <Text>
-              {this.props.selectedPlace.description ? this.props.selectedPlace.description: null}
-            </Text>
-            <Text>
-              {this.props.selectedPlace.userEmail ? this.props.selectedPlace.userEmail: null}
-            </Text>
-          </View>
+          {caption}
           <View style={styles.subContainer}>
             <MapView
               initialRegion={{
@@ -119,6 +126,15 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
     fontSize: 28
+  },
+  captionBox: {
+    width: "100%",
+    paddingTop: 4,
+    paddingBottom: 4,
+    marginTop: 4,
+    marginBottom: 4,
+    backgroundColor: "#eee",
+    alignItems: "center"
   },
   map: {
     ...StyleSheet.absoluteFillObject

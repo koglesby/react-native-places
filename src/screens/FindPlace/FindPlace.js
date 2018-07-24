@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, Animated } from 'react-native';
+import { View, Button, Text, TouchableOpacity, StyleSheet, Animated } from 'react-native';
 import { connect } from 'react-redux';
 
 import PlaceList from '../../components/PlaceList/PlaceList';
-import {getPlaces} from "../../store/actions";
+import {getPlaces, getMorePlaces} from "../../store/actions";
 
 class FindPlaceScreen extends Component {
+
   static navigatorStyle = {
     navBarButtonColor: "orange"
   };
@@ -74,6 +75,10 @@ class FindPlaceScreen extends Component {
     });
   };
 
+  endReachedHandler = () => {
+    this.props.onLoadMore();
+  };
+
   render() {
     let content = (
       <Animated.View style={{
@@ -99,9 +104,11 @@ class FindPlaceScreen extends Component {
         <Animated.View style={{
           opacity: this.state.loadPlacesAnimation
         }}>
+          {/*<Button title="load more places" onPress={this.props.onLoadMore}/>*/}
           <PlaceList
             places={this.props.places}
             onItemSelected={this.itemSelectedHandler}
+            endReached={this.endReachedHandler}
           />
         </Animated.View>
       )
@@ -141,7 +148,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onLoadPlaces: () => dispatch(getPlaces())
+    onLoadPlaces: () => dispatch(getPlaces()),
+    onLoadMore: () => dispatch(getMorePlaces())
   }
 };
 
