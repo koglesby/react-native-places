@@ -56,9 +56,18 @@ export const addPlace = (placeName, location, image, currentUser, description) =
           body: JSON.stringify(placeData)
         })
         .then(res => {
-          dispatch(uiStopLoading());
-          dispatch(placeAdded());
-          dispatch(getPlaces());
+          if (res.ok) {
+
+            res.json().then(response => {
+              console.log(response.name);
+              dispatch(uiStopLoading());
+              dispatch(placeAdded());
+              dispatch(getPlaces());
+              addPlaceRefToUser(authToken, currentUser.userId, response.name);
+            }) ;
+          } else {
+            throw(new Error());
+          }
         })
         .catch(err => {
           console.log(err);
@@ -94,6 +103,7 @@ export const getPlaces = () => {
       })
       .then(res => res.json())
       .then(parsedRes => {
+        // console.log(Object.keys(parsedRes));
         let places = [];
         for (let key in parsedRes) {
           places.push({
@@ -114,6 +124,19 @@ export const getPlaces = () => {
       console.log(err);
     });
   };
+};
+
+export const addPlaceRefToUser = (token, userId, placeId) => {
+  return fetch("https://rn-places.firebaseio.com/users/"+ userId +"/places.json?auth=" + token, {
+    method: "PUT",
+    body: JSON.stringify(
+      {[placeId]: true})
+  })
+    .catch(err => {
+      console.log(err);
+      alert("Something wen't wrong. Please try again. error: " + err);
+      dispatch(uiStopLoading());
+    });
 };
 
 export const placeAdded = () => {

@@ -46,11 +46,27 @@ export const tryAuth = (authData, authMode) => {
             // stores the token, expiryDate (expiresIn converted to Date), and refresh token in AsyncStorage
             // also stores the token and expiryDate in redux state
           );
+          if (authMode === "signup") {
+            addUserToDatabase(parsedRes.idToken, parsedRes.localId, parsedRes.email);
+          }
           dispatch(authStoreUser(parsedRes.email, parsedRes.localId));
           startMainTabs(parsedRes.email);
         }
       });
   };
+};
+
+export const addUserToDatabase = (token, userId, userEmail) => {
+    return fetch("https://rn-places.firebaseio.com/users.json?auth=" + token, {
+      method: "PUT",
+      body: JSON.stringify(
+        {[userId]: {userEmail: userEmail}})
+    })
+    .catch(err => {
+      console.log(err);
+      alert("Something wen't wrong. Please try again.");
+      dispatch(uiStopLoading());
+    });
 };
 
 export const authStoreToken = (token, expiresIn, refreshToken) => {

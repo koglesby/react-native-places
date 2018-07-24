@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { View, Button, Text, TouchableOpacity, StyleSheet, Animated } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, Animated, ActivityIndicator } from 'react-native';
 import { connect } from 'react-redux';
 
 import PlaceList from '../../components/PlaceList/PlaceList';
-import {getPlaces, getMorePlaces} from "../../store/actions";
+import {getPlaces} from "../../store/actions";
 
 class FindPlaceScreen extends Component {
 
