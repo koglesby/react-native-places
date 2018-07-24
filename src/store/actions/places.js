@@ -1,4 +1,4 @@
-import {REMOVE_PLACE, SET_PLACES, PLACE_ADDED, START_ADD_PLACE, SET_MORE_PLACES} from './actionTypes';
+import {REMOVE_PLACE, SET_PLACES, PLACE_ADDED, START_ADD_PLACE} from './actionTypes';
 import { uiStartLoading, uiStopLoading, authGetToken } from "./index";
 
 export const startAddPlace = () => {
@@ -72,53 +72,25 @@ export const addPlace = (placeName, location, image, currentUser, description) =
 };
 
 let referenceTimestamp;
-
 export const getPlaces = () => {
-
   return dispatch => {
     dispatch(authGetToken())
       .catch(() => {
         alert('no valid token found.');
       })
       .then(token => {
-        return fetch("https://rn-places.firebaseio.com/places.json?&orderBy=\"timestamp\"&limitToLast=8&auth=" + token);
-      })
-      .then(res => res.json())
-      .then(parsedRes => {
-        let places = [];
-        for (let key in parsedRes) {
-          places.push({
-            ...parsedRes[key],
-            image: {
-              uri: parsedRes[key].image
-            },
-            key: key
-          });
+        if (referenceTimestamp) {
+          referenceTimestamp -= 1;
+          return fetch("https://rn-places.firebaseio.com/places.json?&orderBy=\"timestamp\"&endAt="
+            + referenceTimestamp
+            + "&limitToLast=2&auth="
+            + token
+          );
+        } else {
+          return fetch("https://rn-places.firebaseio.com/places.json?&orderBy=\"timestamp\"&limitToLast=6&auth="
+            + token
+          );
         }
-        // places.sort(function(a, b){
-        //   if(a.name.toLowerCase() < b.name.toLowerCase()) return -1;
-        //   if(a.name.toLowerCase() > b.name.toLowerCase()) return 1;
-        //   return 0;
-        // });
-        referenceTimestamp = places[0].timestamp;
-      dispatch(setPlaces(places.reverse()));
-    })
-    .catch(err => {
-      alert("something went wrong :(");
-      console.log(err);
-    });
-  };
-};
-
-export const getMorePlaces = () => {
-  return dispatch => {
-    dispatch(authGetToken())
-      .catch(() => {
-        alert('no valid token found.');
-      })
-      .then(token => {
-        referenceTimestamp = referenceTimestamp - 1;
-        return fetch("https://rn-places.firebaseio.com/places.json?&orderBy=\"timestamp\"&endAt=" + referenceTimestamp + "&limitToLast=1&auth=" + token);
       })
       .then(res => res.json())
       .then(parsedRes => {
@@ -134,13 +106,13 @@ export const getMorePlaces = () => {
         }
         if (places[0]) {
           referenceTimestamp = places[0].timestamp;
-          dispatch(setMorePlaces(places));
+          dispatch(setPlaces(places.reverse()));
         }
-      })
-      .catch(err => {
-        alert("something went wrong :(");
-        console.log(err);
-      });
+    })
+    .catch(err => {
+      alert("something went wrong :(");
+      console.log(err);
+    });
   };
 };
 
@@ -155,13 +127,6 @@ export const setPlaces = places => {
     type: SET_PLACES,
     places: places
   };
-};
-
-export const setMorePlaces = places => {
-  return {
-    type: SET_MORE_PLACES,
-    morePlaces: places
-  }
 };
 
 export const deletePlace = (key) => {

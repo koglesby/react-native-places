@@ -21,8 +21,8 @@ const styles = StyleSheet.create({
   },
   placeImage: {
     marginRight: 8,
-    height: 30,
-    width: 30
+    height: 50,
+    width: 50
   }
 });
 

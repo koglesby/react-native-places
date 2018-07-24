@@ -76,7 +76,8 @@ class FindPlaceScreen extends Component {
   };
 
   endReachedHandler = () => {
-    this.props.onLoadMore();
+    console.log("end reached");
+    this.props.onLoadPlaces();
   };
 
   render() {
@@ -104,7 +105,6 @@ class FindPlaceScreen extends Component {
         <Animated.View style={{
           opacity: this.state.loadPlacesAnimation
         }}>
-          {/*<Button title="load more places" onPress={this.props.onLoadMore}/>*/}
           <PlaceList
             places={this.props.places}
             onItemSelected={this.itemSelectedHandler}
@@ -148,8 +148,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onLoadPlaces: () => dispatch(getPlaces()),
-    onLoadMore: () => dispatch(getMorePlaces())
+    onLoadPlaces: () => dispatch(getPlaces())
   }
 };
 
